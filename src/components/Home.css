@@ -1,0 +1,15 @@
+.spanname {
+    font-size: 20px;
+    background: gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.imgmarvel {
+    border-radius: 10px;
+    width: 100%;
+}
