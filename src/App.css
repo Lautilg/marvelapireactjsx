@@ -39,17 +39,17 @@
 
 .showlink {
   padding: 0.4rem 0.8rem;
-  background-color: white;
+  background-color: red;
   border-radius: 3px;
-  color: #178577;
+  color: white;
   text-decoration: none !important;
   margin: 5px;
 }
 
 .showlink:hover {
   background-color: transparent;
-  color: white;
-  border: 2px solid white;
+  color: red;
+  border: 2px solid red;
 }
 
 li {

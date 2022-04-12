@@ -80,7 +80,7 @@ const Series = () => {
   if (page >= 0) {
     if (loading) {
       return (
-        <div>{error ? <ErrorPage name={"Page"} /> : <h2>Loading....</h2>}</div>
+        <div>{error ? <ErrorPage name={"Page"} /> : <h2>Loading....<br></br>Wait please</h2>}</div>
       );
     } else {
       return (

@@ -15,6 +15,7 @@ function Pagination(props) {
                 ? `/comics/page/${props.page - 1}`
                 : `/series/page/${props.page - 1}`
             }
+            className="mx-3"
           >
             Previous
           </Link>

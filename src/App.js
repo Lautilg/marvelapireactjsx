@@ -16,7 +16,7 @@ function App() {
       <Navbar />
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Welcome to the Marvel API</h1>
+          <h1 className="App-title"></h1>
           <br></br>
           <Link className="showlink" to="/">
             Home

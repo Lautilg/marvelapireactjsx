@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import marvelfamily from "../img/marvelfamily.jpg";
+import "./Home.css"
 
 const Home = () => {
   return (
