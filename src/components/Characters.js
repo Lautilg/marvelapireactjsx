@@ -7,8 +7,8 @@ import SearchCharacter from "./SearchCharacter";
 import "../App.css";
 
 const md5 = require("blueimp-md5");
-const publickey = "94dce821bcc69c8477eae0f5f7e93282";
-const privatekey = "c7b613766b1bd35402222ad08ff78df0e8739617";
+const publickey = "823f95248f5219478645077541bda18f";
+const privatekey = "878100d253b4d09f7df66348df00db2996a33bee";
 const ts = new Date().getTime();
 const stringToHash = ts + privatekey + publickey;
 const hash = md5(stringToHash);
