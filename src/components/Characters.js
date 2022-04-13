@@ -100,7 +100,7 @@ const Characters = () => {
                 previousPage={previousPage}
                 callFrom={"Characters"}
               />
-              <div className="row row-cols-1 row-cols-md-4 g-4 my-2 mx-10">
+              <div className="row row-col-sm-2  row-cols-md-3  row-cols-lg-4 g-5 my-3 mx-4">
                 {searchTerm
                   ? searchData &&
                     searchData.map((chars) => {

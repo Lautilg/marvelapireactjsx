@@ -67,7 +67,7 @@ div {
 }
 
 .card {
-  width: 18rem;
+  width: 14rem;
 }
 
 .card:hover {
@@ -75,14 +75,19 @@ div {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
 }
 
+
 .logo {
-  margin-right: 32rem;
+  margin-right: rem;
 }
 
 a {
   color: #1e8678;
   /* text-decoration: none !important; */
 }
+
+
+
+
 
 /* @keyframes App-logo-spin {
   from {
