@@ -10,6 +10,8 @@ import SingleCharacter from "./components/SingleCharacter";
 import SingleComic from "./components/SingleComic";
 import SingleSeries from "./components/SingleSeries";
 
+
+
 function App() {
   return (
     <Router>

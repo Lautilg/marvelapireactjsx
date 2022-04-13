@@ -38,18 +38,42 @@
 }
 
 .showlink {
-  padding: 0.4rem 0.8rem;
-  background-color: red;
-  border-radius: 3px;
-  color: white;
-  text-decoration: none !important;
-  margin: 5px;
+  background: white; /* color de fondo */
+  color: red; /* color de fuente */
+  border: 2px solid red; /* tamaño y color de borde */
+  padding: 16px 20px;
+  border-radius: 3px; /* redondear bordes */
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 .showlink:hover {
-  background-color: transparent;
-  color: red;
-  border: 2px solid red;
+  color: #fff;/* color de fuente hover */
+} 
+
+.showlink:after {
+  content: "";
+  background:  red; /* color de fondo hover */
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: scale(0, 0) rotate(-180deg);
+  transition: all 0.4s ease;
+}
+
+.showlink:hover::after {
+  transition: all 0.4s ease-out;
+  transform: scale(1, 1) rotate(0deg);
 }
 
 li {
@@ -85,6 +109,15 @@ div {
 a {
   color: #1e8678;
   /* text-decoration: none !important; */
+}
+
+@media (max-width: 623px) {
+  .row {
+    padding-left: 76px;
+  }
+  .showlink {
+    font-size: 15px;
+  }
 }
 
 
