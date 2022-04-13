@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../img/Marvel_Logo.svg.png";
+import logo from "../img/Marvel_Logo.png";
 import { Link } from "react-router-dom";
 import "./Navbar.css"
 
@@ -16,8 +16,6 @@ function Navbar() {
             className="logo"
             src={logo}
             alt="Marvel"
-            width="170"
-            height="60"
           />
         </Link>
       </div>
