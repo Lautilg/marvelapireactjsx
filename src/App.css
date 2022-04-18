@@ -76,6 +76,10 @@
   transform: scale(1, 1) rotate(0deg);
 }
 
+.favoritos {
+  background-color: white;
+}
+
 li {
   padding: 20px;
 }
