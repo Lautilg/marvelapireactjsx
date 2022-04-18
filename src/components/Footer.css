@@ -1,83 +1,81 @@
-@media (min-width: 861px) {
-
-
-.main-footers {
-    background: #222;
-    
- 
- }
- .rows{
-  display: flex;
-  
- }
- 
- .col2{
-     float: left; 
-    padding-left: 150px;
-    padding-right: 10px;
-    padding-bottom: 70px;
-    padding-top: 30px;
- }
- 
- h4 {
-     color: aliceblue;
- }
- 
- li {
-     font-size: 15px;
-     padding: 0  0  0  0;
-     color: aliceblue;
-     cursor: pointer;
- }
- 
- 
- .mlogo {
-     width: 200px;
-     height: 200px;
-     /* padding-right: 100px; */
- }
- 
-}
-
-@media (max-width: 861px){
+@media (min-width: 884px) {
     .main-footers {
         background: #222;
+        
+     
      }
      .rows{
-        display: flex;
-        
-       }
-       h4 {
-        color: aliceblue;
-    }
-    li {
-        font-size: 15px;
-        padding: 0  0  0  0;
-        color: aliceblue;
-        cursor: pointer;
-    }
-     
-}
-
-
-
-@media (max-width: 560px){
-    .main-footers {
-        background: #222;
+      display: flex;
+      
      }
+     
+     .col2{
+         float: left; 
+        padding-left: 150px;
+        padding-right: 10px;
+        padding-bottom: 70px;
+        padding-top: 30px;
+     }
+     
      h4 {
-        color: aliceblue;
+         color: aliceblue;
+     }
+     
+     li {
+         font-size: 15px;
+         padding: 0  0  0  0;
+         color: aliceblue;
+         cursor: pointer;
+     }
+     
+     
+     .mlogo {
+         width: 200px;
+         height: 200px;
+         /* padding-right: 100px; */
+     }
+     
     }
-
-    li {
-        font-size: 15px;
-        padding: 0  0  0  0;
-        color: aliceblue;
-        cursor: pointer;
-        padding-bottom: 10px;
+    
+    @media (max-width: 883px){
+        .main-footers {
+            background: #222;
+         }
+         .rows{
+            display: flex;
+            
+           }
+           h4 {
+            color: aliceblue;
+        }
+        li {
+            font-size: 15px;
+            padding: 0  0  0  0;
+            color: aliceblue;
+            cursor: pointer;
+        }
+         
     }
-
-    .rows {
-        display: inline;
-    }  
-}
+    
+    
+    
+    @media (max-width: 560px){
+        .main-footers {
+            background: #222;
+         }
+         h4 {
+            color: aliceblue;
+        }
+    
+        li {
+            font-size: 15px;
+            padding: 0  0  0  0;
+            color: aliceblue;
+            cursor: pointer;
+            padding-bottom: 10px;
+        }
+    
+        .rows {
+            display: inline;
+        }
+    }
